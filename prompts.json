@@ -15,14 +15,14 @@
     {
       "id": "draft",
       "name": "Reply Drafting",
-      "description": "Draft concise, polite replies",
-      "template": "Write a professional and concise reply draft for this email. Include:\n- Subject line\n- Body text\n- A polite closing/signature\nProvide ONLY the draft, no explanations.\n\nEmail:\n{email_body}"
+      "description": "Draft replies based on context and user instructions",
+      "template": "You are an AI drafting assistant. Your goal is to write a reply to the email below.\n\nINCOMING EMAIL CONTEXT:\nSubject: {subject}\nBody:\n{email_body}\n\nUSER INSTRUCTIONS (Highest Priority):\n{instructions}\nPersona/Tone: {persona}\n\nGUIDELINES:\n1. If 'USER INSTRUCTIONS' are provided above, you MUST follow them exactly, even if they contradict standard politeness.\n2. If no specific instructions are given, default to a professional, polite, and concise reply.\n3. Output ONLY the draft content (Subject, Body, Signature). No conversational filler."
     },
     {
       "id": "agent",
       "name": "Agent Insight",
       "description": "Answer high-level inbox queries",
-      "template": "\nYou are a specialized analytical Email Agent. Your primary goal is to provide precise, data-driven answers based ONLY on the provided INBOX CONTEXT.\n\nInstructions:\n1. STRICTLY analyze the provided list of emails to answer the User Query.\n2. When asked for counts, totals, or summaries, provide accurate, specific figures.\n3. The email list is provided in the {emails} variable.\n\nINBOX CONTEXT:\n{emails}\n\nUSER QUERY: {query_type}"
+      "template": "You are a specialized analytical Email Agent. Your primary goal is to provide precise, data-driven answers based ONLY on the provided INBOX CONTEXT.\n\nInstructions:\n1. STRICTLY analyze the provided list of emails to answer the User Query.\n2. When asked for counts, totals, or summaries, provide accurate, specific figures.\n3. The email list is provided in the {emails} variable.\n\nINBOX CONTEXT:\n{emails}\n\nUSER QUERY: {query_type}"
     }
   ]
 }
