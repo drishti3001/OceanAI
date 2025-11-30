@@ -1,0 +1,204 @@
+{
+  "emails": [
+    {
+      "id": "E001",
+      "sender": "hr@netsoftlabs.com",
+      "subject": "Interview Confirmation - Backend Intern",
+      "timestamp": "2025-02-12T09:10:00",
+      "body": "Hi Drishti,\n\nWe're happy to confirm your technical interview for the Backend Intern role. The meeting is scheduled for **February 15 at 11:30 AM IST**, conducted via Google Meet. This round will primarily focus on your understanding of Python fundamentals, REST APIs, and basic database concepts.\n\nPlease ensure that your internet connection is stable and that you join the call 10 minutes early.\n\nBest regards,\nNetSoft Labs HR Team",
+      "category": "",
+      "action_items": [],
+      "drafts": []
+    },
+    {
+      "id": "E002",
+      "sender": "newsletter@designmind.io",
+      "subject": "Top UI/UX Trends You Shouldn't Miss in 2025",
+      "timestamp": "2025-02-12T08:02:00",
+      "body": "Hey Designer!\n\nThis month's newsletter breaks down the biggest UI/UX shifts we're seeing in 2025. From micro-interactions driven by AI motion cues to the subtle comeback of neumorphism (in a more accessible form), the design world is evolving fast.\n\nWe've also included examples from leading apps and a breakdown of why these trends work so well.\n\nHappy designing,\nTeam DesignMind",
+      "category": "",
+      "action_items": [],
+      "drafts": []
+    },
+    {
+      "id": "E003",
+      "sender": "no-reply@zoom.com",
+      "subject": "Reminder: Daily Sprint Stand-up",
+      "timestamp": "2025-02-11T21:15:00",
+      "body": "Hi Drishti,\n\nThis is a reminder for your daily stand-up meeting with **Team Delta**, scheduled for **10:00 AM tomorrow**. The agenda will include discussing progress blockers and prioritizing tasks for the upcoming sprint day.\n\nMeeting Link: https://zoom.us/example\n\nRegards,\nZoom Notifications",
+      "category": "",
+      "action_items": [],
+      "drafts": []
+    },
+    {
+      "id": "E004",
+      "sender": "offers@freegiftworld.fun",
+      "subject": "CONGRATULATIONS! You've Won a Free MacBook!",
+      "timestamp": "2025-02-11T19:44:00",
+      "body": "Hello Lucky User!\n\nYou've been *selected* as one of our exclusive winners to receive a **brand new MacBook Air M4**. To claim your free gift, simply click the link below and enter your personal details.\n\n(We urge you not to miss this once-in-a-lifetime chance!)\n\n**This email is promotional and may not be secure.**",
+      "category": "",
+      "action_items": [],
+      "drafts": []
+    },
+    {
+      "id": "E005",
+      "sender": "teamlead@innovatex.ai",
+      "subject": "Update Required - Sentiment Analysis Module",
+      "timestamp": "2025-02-11T17:30:00",
+      "body": "Hi Drishti,\n\nWe are finalizing the first functional prototype of the sentiment analysis module this week. Can you share the updated training results once you've completed today\u2019s batch tests?\n\nPlease include accuracy, confusion matrix interpretation, and any edge-case failures you observed.\n\nLet\u2019s try to wrap this by end of day.\n\nRegards,\nAarav",
+      "category": "",
+      "action_items": [],
+      "drafts": []
+    },
+    {
+      "id": "E006",
+      "sender": "updates@openai.com",
+      "subject": "Introducing New Multimodal Features",
+      "timestamp": "2025-02-11T14:20:00",
+      "body": "Hello,\n\nWe're excited to announce improvements to multimodal reasoning and broader support for document interpretation. These updates help models handle visual context more naturally and generate responses with better contextual accuracy.\n\nCheck out the new capabilities on your dashboard.\n\nWarm regards,\nOpenAI Team",
+      "category": "",
+      "action_items": [],
+      "drafts": []
+    },
+    {
+      "id": "E007",
+      "sender": "project.manager@buildcore.in",
+      "subject": "Project Orion - Weekly Progress Report",
+      "timestamp": "2025-02-11T10:52:00",
+      "body": "Team,\n\nHere's the consolidated progress report for **Project Orion**:\n- Backend: 60% complete, core services functioning\n- Frontend: Integration pending, UI adjustments in progress\n- Deployment: Expected by Feb 18\n\nPlease review the deployment checklist before Thursday.\n\nRegards,\nManav",
+      "category": "",
+      "action_items": [],
+      "drafts": []
+    },
+    {
+      "id": "E008",
+      "sender": "security@authsafe.net",
+      "subject": "Alert: Suspicious Login Attempt",
+      "timestamp": "2025-02-10T23:31:00",
+      "body": "Hi Drishti,\n\nWe noticed a login attempt from a device located in **Mumbai** that doesn't match your usual patterns.\n\nIf this was you, no action is needed. Otherwise, please change your password immediately using the secure link provided in your dashboard.\n\nYour security matters to us.\nAuthSafe Security Team",
+      "category": "",
+      "action_items": [],
+      "drafts": []
+    },
+    {
+      "id": "E009",
+      "sender": "marketing@freshbites.com",
+      "subject": "Flash Sale! 40% Off for the Next 24 Hours",
+      "timestamp": "2025-02-10T18:25:00",
+      "body": "Hey Foodie,\n\nWe're celebrating mid-week with a massive **40% off** on all meal plans! Whether it's protein bowls, fresh salads, or chef's specials\u2014everything is discounted.\n\nUse code: FLASH40 at checkout.\nExpires in 24 hours!",
+      "category": "",
+      "action_items": [],
+      "drafts": []
+    },
+    {
+      "id": "E010",
+      "sender": "ceo@startuplabs.in",
+      "subject": "Mandatory All-Hands Meeting - New Policy Changes",
+      "timestamp": "2025-02-10T10:00:00",
+      "body": "Dear Team,\n\nWe're conducting an all-hands meeting this Friday at **5:00 PM**. We'll be introducing the updated OKR structure, revised performance evaluation metrics, and department-level workflow adjustments.\n\nYour presence is mandatory.\n\nRegards,\nRohan\nCEO, StartupLabs",
+      "category": "",
+      "action_items": [],
+      "drafts": []
+    },
+    {
+      "id": "E011",
+      "sender": "notifications@github.com",
+      "subject": "Pull Request Assigned to You",
+      "timestamp": "2025-02-09T21:58:00",
+      "body": "Hello Drishti,\n\nA new pull request has been assigned to you in the repository **SafeCircle-app/backend**. Please review the changes related to the authentication middleware and leave your comments.\n\nCheers,\nGitHub Bot",
+      "category": "",
+      "action_items": [],
+      "drafts": []
+    },
+    {
+      "id": "E012",
+      "sender": "team@edulearn.org",
+      "subject": "Your Weekly Learning Summary",
+      "timestamp": "2025-02-09T07:21:00",
+      "body": "Hi Drishti,\n\nThis week you completed 412 minutes of learning across Python, Cloud Computing, and Machine Learning modules.\n\nKeep going\u2014you\u2019re building something great.\n\nBest,\nEduLearn Team",
+      "category": "",
+      "action_items": [],
+      "drafts": []
+    },
+    {
+      "id": "E013",
+      "sender": "promo@coinprofits.net",
+      "subject": "Earn 5x Returns Overnight",
+      "timestamp": "2025-02-09T06:12:00",
+      "body": "Hello Investor,\n\nYou are just one step away from earning **guaranteed 5x returns**. Invest \u20b92000 now and see your balance multiply instantly.\n\n(This email contains misleading financial claims. Please ignore.)",
+      "category": "",
+      "action_items": [],
+      "drafts": []
+    },
+    {
+      "id": "E014",
+      "sender": "mentor@careergrowth.com",
+      "subject": "Resources from Our Career Session",
+      "timestamp": "2025-02-08T11:40:00",
+      "body": "Hi Drishti,\n\nAttached are the resume-building guidelines and the curated list of interview questions we discussed. I recommend practicing the behavioral section thoroughly\u2014it makes a huge difference.\n\nLet's catch up next week.\n\nWarm regards,\nAsha",
+      "category": "",
+      "action_items": [],
+      "drafts": []
+    },
+    {
+      "id": "E015",
+      "sender": "ops@logitrack.in",
+      "subject": "Delivery Update - Shipment Delayed",
+      "timestamp": "2025-02-08T20:55:00",
+      "body": "Hello,\n\nYour shipment scheduled for Feb 9 has been delayed due to operational issues and heavy traffic restrictions.\n\nYour new estimated delivery date is **February 11**.\n\nThank you for your patience.\nLogiTrack Operations",
+      "category": "",
+      "action_items": [],
+      "drafts": []
+    },
+    {
+      "id": "E016",
+      "sender": "support@grammarly.ai",
+      "subject": "Your Writing Insights for This Week",
+      "timestamp": "2025-02-08T13:10:00",
+      "body": "Hi Drishti,\n\nYour writing clarity improved by **12%**, and your sentence restructuring score is up by 18%. Great progress!\n\nWe've included personalized suggestions to help you maintain consistency.\n\nHappy writing!",
+      "category": "",
+      "action_items": [],
+      "drafts": []
+    },
+    {
+      "id": "E017",
+      "sender": "calendar@google.com",
+      "subject": "Invitation: NLP Research Sync",
+      "timestamp": "2025-02-07T16:05:00",
+      "body": "Hi Drishti,\n\nYou've been invited to the **NLP Research Sync** scheduled for Feb 12 at 4 PM. This meeting will cover dataset preparation, training benchmarks, and validation guidelines.\n\nPlease confirm your attendance.",
+      "category": "",
+      "action_items": [],
+      "drafts": []
+    },
+    {
+      "id": "E018",
+      "sender": "news@techdigest.com",
+      "subject": "AI Breakthrough: New Model Beats GPT-5",
+      "timestamp": "2025-02-07T10:30:00",
+      "body": "Hello Reader,\n\nIn today's edition, we explore a new transformer architecture that has surpassed GPT-5 in several reasoning benchmarks. Our deep dive explains what makes this model different and how it may reshape the AI landscape.\n\nStay curious,\nTechDigest Editors",
+      "category": "",
+      "action_items": [],
+      "drafts": []
+    },
+    {
+      "id": "E019",
+      "sender": "admin@universityportal.edu",
+      "subject": "Reminder: Exam Form Submission",
+      "timestamp": "2025-02-06T18:20:00",
+      "body": "Dear Student,\n\nThis is a reminder to submit your exam registration form before **February 14** to avoid late fees. Once submitted, you will receive a confirmation email with further instructions.\n\nRegards,\nAcademic Office",
+      "category": "",
+      "action_items": [],
+      "drafts": []
+    },
+    {
+      "id": "E020",
+      "sender": "reminder@todo.app",
+      "subject": "Task Due Today: Submit Project Report",
+      "timestamp": "2025-02-06T09:12:00",
+      "body": "Hi Drishti,\n\nYour task **'Submit SafeCircle architecture document'** is due today. Make sure the diagrams and flow charts are included in the final PDF.\n\nGood luck!",
+      "category": "",
+      "action_items": [],
+      "drafts": []
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "prompts": [
+    {
+      "id": "categorize",
+      "name": "Inbox Categorization",
+      "description": "Classify emails by intent and type",
+      "template": "Classify the email into one of these categories only: important, newsletter, spam, to-do, meeting, follow-up, personal, other.\nReturn only the category in lowercase.\n\nSubject: {subject}\nEmail:\n{email_body}"
+    },
+    {
+      "id": "actions",
+      "name": "Action Item Extraction",
+      "description": "Extract actionable tasks from emails",
+      "template": "You are a specialized parser for action items and tasks. Your ONLY output ABSOLUTELY MUST be a list of REQUIRED JSON OBJECTS.\n\nInstructions:\n1. Analyze the email below and identify any task, request, or explicit action required by the recipient.\n2. Output ONLY the JSON array.\n3. DO NOT include any explanatory text, commentary, or markdown fences (e.g., ```json).\n\nREQUIRED JSON OBJECT FORMAT:\n[\n  {{\"task\": \"[The specific task]\", \"deadline\": \"[The due date or time, or empty string if none]\"}}\n]\n\nIf the email contains no actionable items, you MUST return an empty list: [].\n\nEmail Content:\n{email_body}"
+    },
+    {
+      "id": "draft",
+      "name": "Reply Drafting",
+      "description": "Draft concise, polite replies",
+      "template": "Write a professional and concise reply draft for this email. Include:\n- Subject line\n- Body text\n- A polite closing/signature\nProvide ONLY the draft, no explanations.\n\nEmail:\n{email_body}"
+    },
+    {
+      "id": "agent",
+      "name": "Agent Insight",
+      "description": "Answer high-level inbox queries",
+      "template": "\nYou are a specialized analytical Email Agent. Your primary goal is to provide precise, data-driven answers based ONLY on the provided INBOX CONTEXT.\n\nInstructions:\n1. STRICTLY analyze the provided list of emails to answer the User Query.\n2. When asked for counts, totals, or summaries, provide accurate, specific figures.\n3. The email list is provided in the {emails} variable.\n\nINBOX CONTEXT:\n{emails}\n\nUSER QUERY: {query_type}"
+    }
+  ]
+}
