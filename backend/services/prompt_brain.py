@@ -77,17 +77,26 @@ class PromptBrain:
                 "If there are no actions, return an empty list []."
             ),
             "draft": (
-                "You are an AI assistant writing an email draft.\n"
-                "Email body:\n{email_body}\n\n"
+                "You are an AI drafting assistant. Your goal is to write a reply to the email below.\n\n"
+                "INCOMING EMAIL CONTEXT:\n"
                 "Subject: {subject}\n"
-                "Persona: {persona}\n"
-                "{instructions}\n\n"
-                "Write a polished, natural reply.\n"
-                "Include a subject line, clear body text, and a signature.\n"
-                "Do NOT send the email; only prepare the draft."
+                "Body:\n{email_body}\n\n"
+                "USER INSTRUCTIONS (Highest Priority):\n"
+                "{instructions}\n"
+                "Persona/Tone: {persona}\n\n"
+                "GUIDELINES:\n"
+                "1. If 'USER INSTRUCTIONS' are provided above, you MUST follow them exactly, even if they contradict standard politeness.\n"
+                "2. If no specific instructions are given, default to a professional, polite, and concise reply.\n"
+                "3. Output ONLY the draft content (Subject, Body, Signature). No conversational filler."
             ),
             "agent": (
-                "You are a specialized analytical Email Agent. Your primary goal is to provide precise, data-driven answers based ONLY on the provided INBOX CONTEXT.\n\nInstructions:\n1. STRICTLY analyze the provided list of emails to answer the User Query.\n2. When asked for counts, totals, or summaries, provide accurate, specific figures.\n3. The email list is provided in the {emails} variable.\n\nINBOX CONTEXT:\n{emails}\n\nUSER QUERY: {query_type}"
+                "You are a specialized analytical Email Agent. Your primary goal is to provide precise, data-driven answers based ONLY on the provided INBOX CONTEXT.\n\n"
+                "Instructions:\n"
+                "1. STRICTLY analyze the provided list of emails to answer the User Query.\n"
+                "2. When asked for counts, totals, or summaries, provide accurate, specific figures.\n"
+                "3. The email list is provided in the {emails} variable.\n\n"
+                "INBOX CONTEXT:\n{emails}\n\n"
+                "USER QUERY: {query_type}"
             ),
         }
 
